@@ -9,7 +9,7 @@
   "scripts": {
     "eslint": "eslint ./packages --ext .ts",
     "eslint:fix": "eslint --fix ./packages --ext .ts",
-    "bootstrap": "lerna bootstrap --no-ci",
+    "bootstrap": "lerna bootstrap",
     "build": "lerna run build --ignore @feflow/cli && lerna run build --scope @feflow/cli",
     "test": "lerna run test",
     "release": "lerna publish from-git --dist-tag $DIST_TAG --yes",
@@ -39,7 +39,7 @@
     "eslint-plugin-mocha": "^9.0.0",
     "eslint-plugin-prettier": "^3.4.1",
     "husky": "^7.0.4",
-    "lerna": "^4.0.0",
+    "lerna": "^5.0.0",
     "lerna-changelog": "^2.2.0",
     "lint-staged": "^12.1.2",
     "mocha": "^8.1.3",
